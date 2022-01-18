@@ -1,0 +1,58 @@
+/*
+p {
+    color: rgb(77, 24, 24);
+    background-color: #f8fcfc;
+    text-align: center;
+}
+
+
+html {
+    color: #39b16f;
+    background-color: #0c1a49;
+    font-family: "Adobe Gothic Std B", sans-serif;
+}
+
+.custom-bg-blue {
+    background-color: #082378;
+}
+
+
+.custom-bg-green {
+    background-color: #0b4444;
+    color: aqua;
+}
+*/
+
+.custom-bg-1 {
+    background-color: #c1f8f8
+}
+
+.footer {
+    background-color: #99a784;
+    color: rgb(0, 60, 255);
+}
+
+
+#text1 {
+    font-family: 'Aclonica', sans-serif;
+    color: #8c00ffd7;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+a:link {
+    color: #2338b3;
+    text-decoration: none;
+}
+a:visited {
+    color: #058f11;
+    text-decoration: none;
+}
+a:hover {
+    color: #15bfdd;
+    text-decoration: none;
+}
+a:active {
+    color: #B300B3;
+    text-decoration: underline;
+}
