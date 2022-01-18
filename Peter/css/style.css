@@ -1,30 +1,7 @@
-/*
-p {
-    color: rgb(77, 24, 24);
-    background-color: #f8fcfc;
-    text-align: center;
-}
-
-
-html {
-    color: #39b16f;
-    background-color: #0c1a49;
-    font-family: "Adobe Gothic Std B", sans-serif;
-}
-
-.custom-bg-blue {
-    background-color: #082378;
-}
-
-
-.custom-bg-green {
-    background-color: #0b4444;
-    color: aqua;
-}
-*/
-
-.custom-bg-1 {
-    background-color: #c1f8f8
+body {
+    background-color: #c1f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
 .footer {
@@ -32,16 +9,52 @@ html {
     color: rgb(0, 60, 255);
 }
 
-
-#text1 {
-    font-family: 'Aclonica', sans-serif;
-    color: #8c00ffd7;
-    font-size: xx-large;
-    font-style: italic;
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    margin: 2px 0;
 }
 
+.fs-m {
+    font-size: medium;
+}
+.fs-l {
+    font-size: large;
+}
+
+nav {
+    background-color: #058f11;
+    background: url(../images/25896-full-size-natur-hintergrundbider-1920x1080.jpg);
+    background-position: bottom;
+}
+li {
+    background: linear-gradient(
+                    rgba(114, 196, 243, 0), 
+                    rgba(98, 136, 238, 0.1));
+    transition: font-size 2s;
+
+}
+
+
+li:hover {
+    background: linear-gradient(
+                    rgba(114, 196, 243, 0.7), 
+                    rgba(98, 136, 238, 0.1));
+    font-size: x-large;
+ }
+
+
+
 a:link {
-    color: #2338b3;
+    color: #88b323;
     text-decoration: none;
 }
 a:visited {
